@@ -1,0 +1,45 @@
+.wrapper {
+  background-color: antiquewhite;
+  padding: 5px;
+}
+/* .wrapper::after {
+    content: "";
+    clear: both;
+    display: block;
+  } */
+
+.service {
+  float: left;
+  background-color: rgb(156, 156, 158);
+  padding: 20px;
+  border: 1px solid;
+  margin: 3px;
+  display: block;
+  position: relative;
+}
+.service:nth-child(1) {
+  top: 30px;
+}
+.services::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.content {
+  clear: both;
+  margin-top: 10px;
+}
+.banner {
+  position: relative;
+  overflow: hidden;
+  padding: 0px;
+}
+.banner h3 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 50px;
+  margin: 0px;
+  font-weight: bold;
+  color: rgb(183, 183, 224);
+}

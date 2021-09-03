@@ -1,0 +1,27 @@
+.wrapper {
+  background-color: antiquewhite;
+  padding: 5px;
+}
+/* .wrapper::after {
+  content: "";
+  clear: both;
+  display: block;
+} */
+
+.service {
+  float: left;
+  background-color: rgb(156, 156, 158);
+  padding: 20px;
+  border: 1px solid;
+  margin: 3px;
+  display: block;
+}
+.services::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.content {
+  clear: both;
+  margin-top: 10px;
+}
